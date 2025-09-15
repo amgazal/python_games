@@ -40,6 +40,7 @@ def display_ans(answer):
 
 def main():
     print('How vast is your vocabulary\nHow good is your guessing game\nLet''s see for ourselves, shall we?')
+    print('For this game we narrow the guess words to just animals so all the best!!')    
     answer=random.choice(words)
     hint=['_']*len(answer)
     wrong_guess=0
